@@ -1,0 +1,31 @@
+# Build artifacts
+/target/
+/**/target/
+
+# IDE / éditeur
+/.idea/
+/.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / env
+.env
+.env.local
+Rocket.toml
+*.key
+secrets.toml
+
+# Logs
+*.log
+tmp/
+*.tmp
+
+# Rust doc / test cache
+/doc/
+/coverage/
+
+/data/
+/image/
